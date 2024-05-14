@@ -40,9 +40,7 @@
 						<li class="menu__list__item">
 							<a href="#xp">Proyectos</a>
 						</li>
-						<li class="menu__list__item">
-							<a href="#contacto">Contacto@fulana.com</a>
-						</li>
+						
 					</ul>
 					<li class="menu__list__item__contato">
 						<a href="#contacto">contacto@fulana.com</a>
@@ -303,7 +301,7 @@
 								><a
 									href="https://github.com/alura-challenges/challenge-one-encriptador-latam"
 									><button class="experiencia__botao--repo">
-										Repositório
+										Repositorio
 									</button></a
 								></span
 							>
@@ -428,32 +426,61 @@
 							contacto con usted lo antes posible.
 						</h3>
 						<form class="formcontato__form" name="form">
-							<input
-								class="formcontato__input"
-								type="text"
-								name="nombre"
-								placeholder="Nombre"
-							/>
-							<input
-								class="formcontato__input"
-								type="email"
-								name="email"
-								placeholder="E-mail"
-							/>
-							<input
-								class="formcontato__input"
-								type="text"
-								name="asunto"
-								placeholder="Assunto"
-							/>
-							<textarea
-								class="formcontato__textarea"
-								rows="5"
-								cols="40"
-								id="mensagem"
-								name="mensaje"
-								placeholder="Mensaje"
-							></textarea>
+							<div class="input-container">
+								<input
+									class="formcontato__input"
+									type="text"
+									name="nombre"
+									id="nombre"
+									placeholder="Nombre"
+								/>
+								<label
+									for="nombre"
+									class="input-container-label"
+									>Nombre</label
+								>
+							</div>
+							<div class="input-container">
+								<input
+									class="formcontato__input"
+									type="email"
+									name="email"
+									id="email"
+									placeholder="E-mail"
+								/>
+								<label for="email" class="input-container-label"
+									>Email</label
+								>
+							</div>
+							<div class="input-container">
+								<input
+									class="formcontato__input"
+									type="text"
+									name="asunto"
+									id="asunto"
+									placeholder="Asunto"
+								/>
+								<label
+									for="asunto"
+									class="input-container-label"
+									>Asunto</label
+								>
+							</div>
+							<div class="input-container">
+								<textarea
+									class="formcontato__textarea"
+									rows="5"
+									cols="40"
+									id="mensaje"
+									name="mensaje"
+									placeholder="Mensaje"
+								></textarea>
+								<label
+									for="mensaje"
+									class="input-container-label"
+									>Mensaje</label
+								>
+							</div>
 							<button type="submit" class="formcontato__botao">
 								Enviar mensaje
 							</button>
