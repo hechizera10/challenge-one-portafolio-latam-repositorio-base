@@ -501,7 +501,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 	}
 	/*Contacto*/
 	.formcontato__img {
-		display: flex;
+		display: block;
 
 		margin-top: 1px;
 	}
